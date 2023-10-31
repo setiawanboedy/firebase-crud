@@ -6,41 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <LinearLayout-->
-<!--        android:id="@+id/input"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="20dp"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        android:orientation="vertical">-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/name"-->
-<!--            android:inputType="text"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="20dp"-->
-<!--            android:hint="name"-->
-<!--            android:autofillHints="" />-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/price"-->
-<!--            android:inputType="number"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="20dp"-->
-<!--            android:hint="price" />-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/description"-->
-<!--            android:inputType="text"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="description" />-->
-<!--    </LinearLayout>-->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
