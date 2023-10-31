@@ -1,4 +1,4 @@
-package com.example.firebasecrud
+package com.example.firebasecrudclient
 
 import org.junit.Test
 

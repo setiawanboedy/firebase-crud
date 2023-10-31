@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.firebasecrud'
+    namespace 'com.example.firebasecrudclient'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.firebasecrud"
+        applicationId "com.example.firebasecrudclient"
         minSdk 21
         targetSdk 33
         versionCode 1

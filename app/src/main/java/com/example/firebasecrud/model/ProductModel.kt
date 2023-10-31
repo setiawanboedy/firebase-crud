@@ -1,4 +1,4 @@
-package com.example.firebasecrud.model
+package com.example.firebasecrudclient.model
 
 import com.google.firebase.Timestamp
 
