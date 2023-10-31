@@ -31,6 +31,7 @@ class MainViewModel: ViewModel() {
 
     fun createProduct(productModel: ProductModel){
         val docRef = db.collection(products)
+
         docRef.add(productModel.toMap()).addOnSuccessListener {
             Log.d("success", "Berhasil")
             docRef.document(it.id).update(mapOf("id" to it.id))

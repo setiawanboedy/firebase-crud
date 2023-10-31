@@ -10,7 +10,6 @@ import com.example.firebasecrud.model.ProductModel
 import com.example.firebasecrud.viewmodel.MainViewModel
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.Timestamp
-import java.time.Duration
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,7 +27,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.submit.setOnClickListener {
             createProduct()
-
         }
 
         mainViewModel.getListProduct()
@@ -121,6 +119,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun resetForm(){
+        _product = null
         binding.name.text.clear()
         binding.price.text.clear()
         binding.description.text.clear()
